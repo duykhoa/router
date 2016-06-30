@@ -24,8 +24,6 @@ module Hanami
   #     trace   '/', to: endpoint
   #   end
   #
-  #
-  #
   # @example Specify an endpoint with `:to` (Rack compatible object)
   #   require 'hanami/router'
   #
@@ -37,8 +35,6 @@ module Hanami
   #   # :to is mandatory for the default resolver (`Hanami::Routing::EndpointResolver.new`),
   #   # This behavior can be changed by passing a custom resolver to `Hanami::Router#initialize`
   #
-  #
-  #
   # @example Specify an endpoint with `:to` (controller and action string)
   #   require 'hanami/router'
   #
@@ -47,8 +43,6 @@ module Hanami
   #   end
   #
   #   # This is a builtin feature for a Hanami::Controller convention.
-  #
-  #
   #
   # @example Specify a named route with `:as`
   #   require 'hanami/router'
